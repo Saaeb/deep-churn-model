@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+input/data/  # چون دیتاها معمولاً حجم بالایی دارند و در گیت‌هاب نباید باشند
+.ipynb_checkpoints/
+.env
