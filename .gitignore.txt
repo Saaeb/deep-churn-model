@@ -1,6 +1,20 @@
+# Virtual Environments
 venv/
+env/
+.venv/
+
+# Python Cache
 __pycache__/
 *.pyc
-input/data/  # چون دیتاها معمولاً حجم بالایی دارند و در گیت‌هاب نباید باشند
+*.pyo
+*.pyd
+*$py.class
+
+# Data and Notebook Checkpoints
+input/data/
 .ipynb_checkpoints/
+
+# Environment variables & system files
 .env
+.DS_Store
+Thumbs.db
